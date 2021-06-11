@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <!-- google font -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome -->
+    <!-- fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="MyBody" class="bg__light ">
+    <header >
+      <div class="header" id="header__menu">
+        <div class="logo">
+          <a class="navbar-brand" href="#">Farmstead
+            <i class="fa fa-leaf"></i>
+          </a>
+        </div>
+        <div class="menu">
+          <form>
+              <i class="fa fa-search"></i>
+              <input type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <div class="theme theme__light" id="button-mode">
+              <i class="fa fa-moon"></i>
+              <i class="fa fa-sun"></i>
+          </div>
+          <div class="menu__down">
+            <input type="checkbox" name="check1" id="check1">
+            <label for="check1">
+              <i class="fa fa-bars"></i>
+            </label>
+            <div class="menu__item">
+              <ul>
+                <li class="active">HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICE</li>
+                <li>BLOG POST</li>
+                <li>LANDING PAGE</li>
+                <li>ELEMENT PAGE</li>
+                <li>404 PAGE</li>
+                <li>CONTACT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="MyCarousel ">
+      <div class="container-fluid">
+        <div class="cart__carousel">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h1>Farm</h1>
+              <div class="cart__carousel--text">
+                <h3>Welcome to Farmstead
+                  where Natural Food is born!</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                  
+                <button type="button" class="btn btn-danger">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-0 col-sm-0 col-md-5 col-lg-5">
+            
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 rm__padding">
+            <div id="MyCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#MyCarousel" data-slide-to="1"></li>
+                <li data-target="#MyCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/b1.jpg" class="d-block w-100" alt="...">
+                  <div class="item__text text-center">
+                    <span>01/</span><span>03</span>
+                    <p>Agriculture</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/b4.jpg" class="d-block w-100" alt="...">
+                  <div class="item__text text-center">
+                    <span>02/</span><span>03</span>
+                    <p>Farm Field</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/b8.jpg" class="d-block w-100" alt="...">
+                  <div class="item__text text-center">
+                    <span>03/</span><span>03</span>
+                    <p>Organic Farm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section class="Naturally">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 natural__left">
+            <div>
+              <h4 style="color:#fb811e;">Grow Naturally</h4>
+              <h1>Leaders in the field</h1>
+              <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
+            
+              <button type="button">DISCOVER MORE</button>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="natural__item">
+                    <div class="natural__icon">
+                      <img src="./images/img1.png" alt="">
+                    </div>
+                    <div class="natural__text">
+                      <p>NATURAL PRODUCT</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="natural__item">
+                    <div class="natural__icon">
+                      <img src="./images/img2.png" alt="">
+                    </div>
+                    <div class="natural__text">
+                      <p>NATURAL PRODUCT</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="natural__item">
+                    <div class="natural__icon">
+                      <img src="./images/img3.png" alt="">
+                    </div>
+                    <div class="natural__text">
+                      <p>NATURAL PRODUCT</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div class="natural__item">
+                    <div class="natural__icon">
+                      <img src="./images/img4.png" alt="">
+                    </div>
+                    <div class="natural__text">
+                      <p>NATURAL PRODUCT</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section class="Service">
+      <div class="container">
+        <div class="Service__title">
+          <h1>Services</h1>
+        </div>
+        <div class="Service__text">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rm__padding">
+              <h4>What we do</h4>
+              <h2>Why Choose Our Fresh Organic Foods</h2>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rm__padding">
+              <p class="pt-4">
+                Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque, eaque ipsa quae ab illo inventore.Sed ut
+                perspiciatis unde omnis iste natus error sit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="Service__content">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-3">
+              <div class="Service__item">
+                <div class="item__img">
+                  <img src="./images/service1.jpg" alt="...">
+                </div>
+                <div class="item__text">
+                  <span>Natural</span>
+                  <h4>Agriculture Products</h4>
+                  <p>Sed ut perspiciatis unde omnis iste natus sit
+                     accusantium doloremque laudantium, totam rem aperiam</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-3">
+              <div class="Service__item">
+                <div class="item__img">
+                  <img src="./images/service2.jpg" alt="...">
+                </div>
+                <div class="item__text">
+                  <span>Natural</span>
+                  <h4>Agriculture Products</h4>
+                  <p>Sed ut perspiciatis unde omnis iste natus sit
+                     accusantium doloremque laudantium, totam rem aperiam</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-3">
+              <div class="Service__item">
+                <div class="item__img">
+                  <img src="./images/service3.jpg" alt="...">
+                </div>
+                <div class="item__text">
+                  <span>Natural</span>
+                  <h4>Agriculture Products</h4>
+                  <p>Sed ut perspiciatis unde omnis iste natus sit
+                     accusantium doloremque laudantium, totam rem aperiam</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Quality">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 quality-text">
+            <div class="Quality__left">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="text--1">
+                      <h4>Why choose us</h4>
+                      <h1>Quality food is the most important thing in our life</h1>
+                      <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum 
+                      dolor sit amet consectetur adipisicing elit. Non quae, fugiat.</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="item__left">
+                      <i class="fa fa-users"></i>
+                      <h3>Qualified Staff</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="item__left">
+                      <i class="fa fa-life-ring"></i>
+                      <h3>Excellent Service</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <div class="Quality__right">
+              <div>
+                <div class="item__right text-center">
+                  <h1>36+</h1>
+                  <p>YEARS OF EXPERIENCE</p>
+                </div>
+                <img src="./images/image.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="element">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+              <div class="element__item">
+                <div class="element__item--content">
+                  <div class="element__img">
+                    <img src="./images/img5.png" alt="">
+                  </div>
+                  <div class="element__text">
+                    <h5>Ariculture</h5>
+                    <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                  </div>  
+                </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="element__item">
+              <div class="element__item--content">
+                <div class="element__img">
+                  <img src="./images/img6.png" alt="">
+                </div>
+                <div class="element__text">
+                  <h5>Ariculture</h5>
+                  <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                </div>  
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="element__item">
+              <div class="element__item--content">
+                <div class="element__img">
+                  <img src="./images/img7.png" alt="">
+                </div>
+                <div class="element__text">
+                  <h5>Ariculture</h5>
+                  <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                </div>  
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="element__item">
+              <div class="element__item--content">
+                <div class="element__img">
+                  <img src="./images/img8.png" alt="">
+                </div>
+                <div class="element__text">
+                  <h5>Ariculture</h5>
+                  <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                </div>  
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="element__item">
+              <div class="element__item--content">
+                <div class="element__img">
+                  <img src="./images/img9.png" alt="">
+                </div>
+                <div class="element__text">
+                  <h5>Ariculture</h5>
+                  <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                </div>  
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="element__item">
+              <div class="element__item--content">
+                <div class="element__img">
+                  <img src="./images/img10.png" alt="">
+                </div>
+                <div class="element__text">
+                  <h5>Ariculture</h5>
+                  <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Galerry">
+      <div class="container">
+        <div class="Galerry__content">
+          <div class="Galerry__item item--1">
+            <h5>Gallery</h5>
+            <h1>Our Products</h1>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
+            <button type="button" class="btn">DISCOVER MORE</button>
+          </div>
+          <a class="Galerry__item G__item1" href="./images/g1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+            <div class="Galerry__img">
+              <img src="./images/g1.jpg" alt="" srcset="">
+            </div>
+            <div class="Galerry__text">
+              <h4>Fresher Carrots</h4>
+            </div>
+            <div class="overlay1"></div>
+          </a>
+          <a class="Galerry__item G__item1" href="./images/g2.jpg" data-fancybox="gallery" data-caption="Caption #2">
+            <div class="Galerry__img">
+              <img src="./images/g2.jpg" alt="" srcset="">
+            </div>
+            <div class="Galerry__text">
+              <h4>Strawberry</h4>
+            </div>
+            <div class="overlay1"></div>
+          </a>
+          <a class="Galerry__item G__item1" href="./images/g3.jpg" data-fancybox="gallery" data-caption="Caption #3">
+            <div class="Galerry__img">
+              <img src="./images/g3.jpg" alt="" srcset="">
+            </div>
+            <div class="Galerry__text">
+              <h4>Our farm</h4>
+            </div>
+            <div class="overlay1"></div>
+          </a>
+          <a class="Galerry__item G__item1" href="./images/g5.jpg" data-fancybox="gallery" data-caption="Caption #4">
+            <div class="Galerry__img">
+              <img src="./images/g5.jpg" alt="" srcset="">
+            </div>
+            <div class="Galerry__text">
+              <h4>Fresh Apples</h4>
+            </div>
+            <div class="overlay1"></div>
+          </a>
+          <a class="Galerry__item G__item1" href="./images/g6.jpg" data-fancybox="gallery" data-caption="Caption #5">
+            <div class="Galerry__img">
+              <img src="./images/g6.jpg" alt="" srcset="">
+            </div>
+            <div class="Galerry__text">
+              <h4>Awesome Fields</h4>
+            </div>
+            <div class="overlay1"></div>
+          </a>
+          <a class="Galerry__item G__item1" href="./images/g7.jpg" data-fancybox="gallery" data-caption="Caption #6">
+            <div class="Galerry__img">
+              <img src="./images/g7.jpg" alt="" srcset="">
+            </div>
+            <div class="Galerry__text">
+              <h4>Fresh Grapes</h4>
+            </div>
+            <div class="overlay1"></div>
+          </a>
+          <a class="Galerry__item G__item1" href="./images/g8.jpg" data-fancybox="gallery" data-caption="Caption #7">
+            <div class="Galerry__img">
+              <img src="./images/g8.jpg" alt="" srcset="">
+            </div>
+            <div class="Galerry__text">
+              <h4>Hot Papper</h4>
+            </div>
+            <div class="overlay1"></div>
+          </a>
+        </div>
+      </div>
+      
+    </section>
+    <section class="MyCarousel1">
+      <div class="overlay1_1"></div>
+      <div id="carouselFoodter" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselFoodter" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselFoodter" data-slide-to="1"></li>
+          <li data-target="#carouselFoodter" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="MyCarousel1__content">
+              <div class="MyCarousel1__img">
+                <img src="./images/testi1.jpg" alt="">
+                <h5>Dennis Wilson</h5>
+                <p>customer</p>
+              </div>
+              <div class="MyCarousel1__text">
+                <i class="fa fa-quote-left"></i><br>
+                <p>" Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                  beatae
+                  laudantium Quas minima sunt natus tempore, maiores aliquid modi felis
+                  sequi optio lacinia id ipsum non velit, culpa.
+                  voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                  est elit. Non quae, fugiat ad libero justo sed amet. "
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="MyCarousel1__content">
+              <div class="MyCarousel1__img">
+                <img src="./images/testi2.jpg" alt="">
+                <h5>Dennis Wilson</h5>
+                <p>customer</p>
+              </div>
+              <div class="MyCarousel1__text">
+                <i class="fa fa-quote-left"></i><br>
+                <p>" Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                  beatae
+                  laudantium Quas minima sunt natus tempore, maiores aliquid modi felis
+                  sequi optio lacinia id ipsum non velit, culpa.
+                  voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                  est elit. Non quae, fugiat ad libero justo sed amet. "
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="MyCarousel1__content">
+              <div class="MyCarousel1__img">
+                <img src="./images/testi3.jpg" alt="">
+                <h5>Dennis Wilson</h5>
+                <p>customer</p>
+              </div>
+              <div class="MyCarousel1__text">
+                <i class="fa fa-quote-left"></i><br>
+                <p>" Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                  beatae
+                  laudantium Quas minima sunt natus tempore, maiores aliquid modi felis
+                  sequi optio lacinia id ipsum non velit, culpa.
+                  voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                  est elit. Non quae, fugiat ad libero justo sed amet. "
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container foodter">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <h3 class="mb-4">FIND US</h3>
+            <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+            <p>Phone: +12 23456790</p>
+            <p>Email: info@example.com</p>
+            <p>Fax: + 11 367 21890</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <h1>Farmtead</h1>
+            <p class="mt-4 mb-5">Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.</p>
+            <p>© 2021 Farmstead. All Rights Reserved | WordPress Theme by <span>W3Layouts</span>.</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <h3 class="mb-4">NEWSLETTER</h3>
+            <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+            <input type="text" placeholder="email address">
+            <button type="button" class="btn btn-success"><i class="fa fa-paper-plane"></i></button>
+            <div class="foodter__icon">
+              <p href="#"><i class="fab fa-facebook-f"></i></p>
+              <p href="#"><i class="fab fa-linkedin-in"></i></p>
+              <p href="#"><i class="fab fa-twitter"></i></p>
+              <p href="#"><i class="fab fa-google-plus-g"></i></p>
+              <p href="#"><i class="fab fa-github"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- boostrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- JS main -->
+    <!-- <script>
+      $(function(){
+        $(window).scroll(function(){
+          var Scroll_Top = $('#header__menu').height();
+          if($(this).scrollTop()>= 200){
+              $('#header__menu').css.backgroundColor="red";
+              document.getElementById("header__menu").style.backgroundColor="white";
+          }
+        });
+      });
+    </script> -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
